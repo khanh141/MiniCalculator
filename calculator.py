@@ -18,7 +18,7 @@ def button_click(value):
         "➗": "/"
     }
     
-    operators = operator_map.keys()
+    operators = operator_map.values()
     
 # xử lý sau khi đã tính toán xong, nếu người dùng nhập tiếp một phép toán thì sẽ tiếp tục tính
     if st.session_state.just_calculated:
